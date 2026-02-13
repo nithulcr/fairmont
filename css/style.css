@@ -765,17 +765,73 @@ h1{
     line-height: 28px;
 }
 
-/* video sec start */
-.video {
+/* overview start */
+.overview-section{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.overview-section > div{
+    position: relative;
+}
+.overview-bg{
+    position: relative;
+}
+.overview-bg:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
-    max-height: 90vh;
-    object-fit: contain;
     height: 100%;
+    z-index: 9;
+    background: #2f010161;
+}
+.overview-bg img{
+    width: 100%;
     display: block;
 }
+.overview-content{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    z-index: 99;
+    max-width: 1360px;
+    width: 100%;
 
+}
+.overview-content-sec{
+    max-width: 720px;
+}
+.overview-content2{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    z-index: 99;
+    max-width: 1360px;
+    width: 100%;
 
-
+}
+.overview-content-sec2{
+    max-width: 500px;
+    margin-left: auto;
+}
+.overview-content h4{
+    width: 100%;
+}
+.overview-content p{
+   color: white;
+}
+.overview-content2 p{
+   color: white;
+}
 /* properties start */
 .properties {
     padding: 100px 50px;
@@ -2053,7 +2109,9 @@ label {
     .sticky-bar .features-column {
         display: none;
     }
-
+    .sticky-bar .features-column.sticky-btn {
+        display: block;
+    }
     .sticky-bar .features-row {
         grid-template-columns: 1fr;
     }
