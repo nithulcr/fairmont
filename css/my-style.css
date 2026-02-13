@@ -53,6 +53,9 @@ h1 .text-site-primary, .chronicle, .heading{
     font-family: "chronicle";
 
 }
+section#map {
+    display: flex;
+}
 /* width */
 ::-webkit-scrollbar {
     width: 10px;

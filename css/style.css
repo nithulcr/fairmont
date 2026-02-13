@@ -1369,7 +1369,7 @@ gap: 15px;
 
 /* footer start */
 .footer {
-    background-color: var(--main-color);
+    background-color: var(--main-color3);
     padding: 0px 0 100px 0;
 }
 
@@ -1385,6 +1385,8 @@ gap: 15px;
 }
 .blue-print img{
     width: 320px;
+    filter: brightness(1) contrast(1.2);
+    mix-blend-mode: screen;
 }
 .footer-social {
     display: flex;
