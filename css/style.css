@@ -2053,7 +2053,7 @@ label {
     }
 
     .features2 h5 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
 
@@ -2100,7 +2100,7 @@ label {
 
 
         .home .carousel-inner2:before{
-        background-color: #0000006d;
+        background-color: #2f010140;
     }
 
 }
@@ -2136,12 +2136,12 @@ label {
     }
 
     .ardee-logo {
-        padding: 0 35px;
+        padding: 0 25px;
     }
 
     .home .carousel-caption {
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .sticky-bar .features-column {
@@ -2156,7 +2156,7 @@ label {
 
     .amenities-list li {
         padding: 5px;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 20px;
         text-align: center !important;
     }
@@ -2174,8 +2174,8 @@ label {
 
     .home .carousel-caption h1, h1 {
 
-        font-size:56px;
-        line-height: 64px;
+      font-size: 52px;
+        line-height: 55px;
 
     }
 
@@ -2306,7 +2306,7 @@ label {
 
 
     .home .carousel-caption {
-        top: 10%;
+        top: 7%;
         transform: translateX(-50%);
 
     }
@@ -2336,7 +2336,7 @@ label {
 }
 .ardee-logo {
 
-    bottom: 50px;
+    bottom: 30px;
 
 
 }
@@ -2509,7 +2509,7 @@ label {
 
 @media (max-width: 480px) {
         .features .features-column {
-        min-height: 135px;
+        min-height: 125px;
         padding: 15px;
     }
     .half {
@@ -2562,7 +2562,7 @@ label {
     }
 
     .features2 h6 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .newst-city-col h5 {
