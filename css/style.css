@@ -2125,8 +2125,12 @@ label {
     .features-column:nth-child(2) {
         border: none;
         border-bottom: 2px solid #00575b1f;
+        min-height: 122px;
     }
+    .features-column {
 
+        min-height: 122px;
+    }
     .features-column:nth-child(1) {
         border-bottom: 2px solid #00575b1f;
     }
@@ -2389,7 +2393,7 @@ label {
     }
 
 .features2{
-    padding: 30px;
+    padding: 20px;
 }
 
 .overview-section {
@@ -2504,6 +2508,10 @@ label {
 
 
 @media (max-width: 480px) {
+        .features .features-column {
+        min-height: 135px;
+        padding: 15px;
+    }
     .half {
         width: 100%;
         float: none;

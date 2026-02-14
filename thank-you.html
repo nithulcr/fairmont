@@ -4,21 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Register Your Interest  | Fairmont Residences Al Marjan Island | Luxury Branded Residences | Ras Al Khaima
-	</title>
-
-	<meta name="description"
-		content="Reserve an apartment, townhouse, or villa at Fairmont Residences Al Marjan Island, Ras Al Khaimah. Experience luxury living with resort-style amenities.">
-	<meta name="keywords" content="property">
-	<meta property="og:title"
-		content="Fairmont Residences Al Marjan Island | Luxury Branded Residences" />
-	<meta property="og:description"
-		content="Reserve an apartment, townhouse, or villa at Fairmont Residences Al Marjan Island, Ras Al Khaimah. Experience luxury living with resort-style amenities." />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="website" />
-
-	<meta name="author" content="Fairmont">
+    <title>Thak You - Fairmont.</title>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Thak You - Fairmont." />
+    <meta name="description"
+        content="Fairmont, Invest in Fairmont ">
+    <meta name="keywords" content="property">
+    <meta property="og:description"
+        content="fairmontmaritimecity" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -381,116 +377,32 @@
                         <img src="images/back.png" style="width: 20px; filter: invert(1);">Booking Enquiry
                     </h3>
                 </a>
-                <div class="register-section">
-                    <form id="registerForm" action="https://formsubmit.co/breezmaritimecity@gmail.com" method="POST">
-                        <!-- Disable captcha -->
-                        <input type="hidden" name="_captcha" value="false">
-                        <!-- Redirect or confirmation message handling -->
-                        <input type="hidden" name="_template" value="table">
-                        <input type="hidden" name="_webhook"
-                            value="https://connect.pabbly.com/workflow/sendwebhookfiledata/IjU3NjIwNTZjMDYzMDA0M2Q1MjY4NTUzMyI_3D_pc/IjU3NjYwNTY0MDYzNjA0Mzc1MjY1NTUzMjUxMzUi_pc" />
-                        <input type="hidden" name="_subject" value="New Registration Form Submission">
-                        <input type="hidden" name="_next" value="https://fairmont-coral.vercel.app/thank-you.html">
-                        <div class="form">
-                            <div class="row input-div">
-                                <div class="col-md-6 col-item">
-                                    <input type="text" name="Full Name" placeholder="Enter Your Full Name"
-                                        class="input w-100" required />
-                                </div>
+               
+                <div class="register-confirm-section">
+                    <div class="p-4">
+                        <h5 style="font-size: 22px; line-height: 36px; color: #0ab767; margin-bottom: 20px;">✅ Your Apartment Booking Enquiry Submitted Successfully!!</h5>
+                        <p style="font-size: 16px; line-height: 1.6;">One of Our Sales Manager Will contact you back shortly to Assist you !!</p>
 
-                                <div class="col-md-6 col-item">
-                                    <input type="email" name="Email" placeholder="Enter email id" class="input w-100"
-                                        required />
-                                </div>
+                       
+                    </div>
+                     <div class="p-4">
+                       
 
-                                <div class="col-md-6 col-item">
-                                    <input id="phone" type="tel" name="Phone" placeholder="Phone" class="input w-100"
-                                        required />
-                                </div>
-
-                                <div class="col-md-6 col-item">
-                                    <input type="text" name="Nationality" placeholder="Nationality" class="input w-100"
-                                        required />
-                                </div>
-                            </div>
-
-                            <div class="row input-div">
-                                <div class="col-md-6 col-item">
-                                    <label for="ApartmentType">Select Apartment Type *</label>
-                                    <select id="ApartmentType" name="Apartment Type" class="select-input w-100"
-                                        required>
-                                        <option value="">-- Select Apartment Type --</option>
-                                        <option value="Studio">Studio</option>
-                                        <option value="1 Bedroom">1 Bedroom</option>
-                                        <option value="1 Bedroom Premium">1 Bedroom Premium</option>
-                                        <option value="2 Bedroom">2 Bedroom Premium</option>
-                                        <option value="3 Bedroom">3 Bedroom Premium</option>
-                                        <option value="4 Bedroom (On Request)">4 Bedroom Premium</option>
-                                        <option value="BREEZ Villas (On Request)">BREEZ Villas (On Request)</option>
-                                    </select>
-                                </div>
-
-                                <div class="col-md-6 col-item">
-                                    <label for="buyPlan">How Soon You Are Planning to Buy *</label>
-                                    <select id="buyPlan" name="Buying Plan" class="select-input w-100" required>
-                                        <option value="">-- Select Urgency --</option>
-                                        <option value="Immediately">Immediately</option>
-                                        <option value="Within a Week Days">Within a Week</option>
-                                        <option value="Within 2 Weeks">Within 2 Weeks</option>
-                                        <option value="Within 1 Month">Within 1 Month</option>
-                                        <option value="Within 3 Months">Within 3 Months</option>
-                                    </select>
-                                </div>
-
-                                <div class="col-md-6 col-item">
-                                    <label for="budgetRange">Enter Your Budget Range *</label>
-                                    <select id="budgetRange" name="Budget Range" class="select-input w-100" required>
-                                        <option value="">-- Select Budget Range --</option>
-                                        <option value="AED 1.4 to 2 Million">AED 1.4 to 2 Million</option>
-                                        <option value="AED 2 to 2.5 Million">AED 2 to 2.5 Million</option>
-                                        <option value="AED 2.5 to 3 Million">AED 2.5 to 3 Million</option>
-                                        <option value="AED 3 to 3.5 Million">AED 3 to 3.5 Million</option>
-                                        <option value="AED 3.5 to 4 Million">AED 3.5 to 4 Million</option>
-                                        <option value="AED 10 M 4 Bed">AED 10 M 4 Bed</option>
-                                        <option value="30 Million AED - Villa">30 Million AED - Villa</option>
-                                    </select>
-                                </div>
-
-                                <div class="col-item"
-                                    style="display: flex; align-items: center; gap: 10px; flex-direction: row;">
-                                    <input id="disclaimer" type="checkbox" required
-                                        style="width: 20px; height: 20px; accent-color: #00575b;" />
-                                    <label for="disclaimer" style="margin-left: 8px;">
-                                        User hereby agrees with the disclaimer policy when accessing / using this
-                                        website.
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                       <button type="submit" class="button-site">
-                            <label>Register</label>
-                            <span></span>
-                        </button>
-                    </form>
+                        <h5 style="font-size: 20px; line-height: 1.6;">Schedule A Zoom/Google Meet with Sales Manager</h5>
+                        <a href="https://calendly.com/breezmaritimecity/60min" target="_blank" class="button-site" style="width: fit-content; padding: 10px 25px;">
+                           <label> Book an
+							Appoinment with Sales Manager</label>
+                             <span></span>
+							
+                        </a>
+                    </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    
-    <script>
-        // Initialize intl-tel-input and store the instance
-        const phoneInputField = document.querySelector("#phone");
-        const iti = window.intlTelInput(phoneInputField, {
-            initialCountry: "ae", // Default to UAE
-            preferredCountries: ["ae", "in", "us", "gb"],
-            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
-        });
 
-      
-    </script>
+
 </body>
 
 </html>
