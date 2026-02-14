@@ -799,7 +799,7 @@ h1{
     margin: auto;
     padding: 40px;
     z-index: 99;
-    max-width: 1360px;
+    max-width: 1400px;
     width: 100%;
 
 }
@@ -995,7 +995,10 @@ h1{
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
+#features{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .features2 {
     padding: 50px;
     text-align: center;
@@ -1025,9 +1028,10 @@ h1{
     /* width: 35px;
     height: 35px; */
     object-fit: contain;
-    margin-top: 10px;
 }
-
+.about-center {
+    padding-left: 0px;
+}
 .features2 h5 {
 
     font-size: 30px;
@@ -1872,8 +1876,33 @@ label {
 }
 
 @media(max-width: 1080px) {
+    .connectivity{
+        flex-direction: column;
+    }
+    .overview-content, .overview-content2{
+        position: relative;
+        padding: 20px;
+       
+    }
+    .overview-section > div {
+    position: relative;
+    background: var(--main-color3);
+     display: flex;
+        flex-direction: column;
+}
+.overview-bg{
+    order: 0;
+}
+.overview-content{
+    order: 1;
+}
+.overview-content2{
+    order: 2;
+}
     .plan-cards > *:not(:last-child){
        border:none;
+       border-bottom: 2px solid #e3e3e357;
+       padding-bottom: 20px;
     }
     .investment-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1887,8 +1916,12 @@ label {
 }
 
 @media(max-width: 990px) {
-
-
+.features2 h6 {
+    font-size: 14px;
+}
+.features .features-column img {
+    max-width: 150px;
+}
     .center-card {
         order: -1;
         margin-bottom: 20px;
@@ -1940,7 +1973,6 @@ label {
 
     .plan-card {
         min-width: 140px;
-        border-radius: 12px;
         align-items: flex-start;
     }
 
@@ -2138,8 +2170,8 @@ label {
 
     .home .carousel-caption h1, h1 {
 
-        font-size: 28px;
-        line-height: 34px;
+        font-size:56px;
+        line-height: 64px;
 
     }
 
@@ -2253,7 +2285,10 @@ label {
     .newste-icon {
         padding: 50px 20px;
     }
+.payment, .newste-icon, .ameninties {
+        padding-top: 20px!important;
 
+}
     .newste-icon .container {
         padding: 0;
     }
@@ -2321,10 +2356,6 @@ label {
     }
 
 
-    .newst-city-col {
-        flex-direction: column;
-        align-items: start;
-    }
 
 
 
@@ -2348,7 +2379,6 @@ label {
 
     .about-right,
     .payment,
-    .features2,
     .properties,
     .services-start,
     .about2,
@@ -2358,9 +2388,14 @@ label {
         padding: 50px 20px;
     }
 
+.features2{
+    padding: 30px;
+}
 
-
-
+.overview-section {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 
 
     .sub-page {

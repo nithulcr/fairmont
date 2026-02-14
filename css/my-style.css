@@ -466,7 +466,7 @@ header .nav a:hover {
 
     p {
         font-size: 14px;
-        line-height: 20px !important;
+        line-height: 22px !important;
     }
     .text-28 {
     font-size: 20px;
@@ -475,6 +475,12 @@ header .nav a:hover {
 .text-18{
      font-size: 16px!important;
     line-height: 26px!important;
+}
+.section-shape-img {
+    width: 280px;
+
+    margin-bottom: 50px;
+
 }
 }
 
