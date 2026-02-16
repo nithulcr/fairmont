@@ -139,7 +139,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 7px;
     min-width: 100px;
     cursor: pointer;
     line-height: 24px;
@@ -179,8 +179,8 @@ header {
 }
 
 .button-site img {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     object-fit: contain;
     z-index: 9;
     transition: .3s;
@@ -2099,9 +2099,7 @@ label {
     }
 
 
-        .home .carousel-inner2:before{
-        background-color: #2f010140;
-    }
+
 
 }
 
