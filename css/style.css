@@ -266,7 +266,7 @@ header {
 .fixed-contact {
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 100px;
     z-index: 9999;
     display: flex;
     flex-direction: column;
@@ -647,11 +647,16 @@ h1{
     font-size: 30px;
     line-height: 40px;
 }
-
+.about-right-text{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
 .about2 .about-right p {
     color: black;
-    font-size: 17px !important;
-    font-weight: 500;
+    font-size: 16px !important;
+    font-weight: 300;
+    text-align: justify;
 }
 
 .about2 .about-right {
@@ -740,7 +745,9 @@ h1{
 .feature-box:last-child {
     border: none;
 }
-
+.site-logo{
+    max-width: 200px;
+}
 .icon-box {
     border: 1.5px solid #7ad1da;
     border-radius: 8px;
@@ -1924,7 +1931,7 @@ label {
     font-size: 14px;
 }
 .features .features-column img {
-    max-width: 150px;
+    max-width: 120px;
 }
     .center-card {
         order: -1;
@@ -2108,6 +2115,10 @@ label {
 }
 
 @media(max-width: 768px) {
+    .about2 .about-right p {
+
+    font-size: 14px !important;
+}
     .investment-grid {
         grid-template-columns: 1fr;
     }
@@ -2418,7 +2429,6 @@ label {
     .fixed-contact {
         top: auto;
         transform: initial;
-        bottom: 100px;
     }
 .home .carousel-inner2 img {
     height: calc(100vh - 80px);
