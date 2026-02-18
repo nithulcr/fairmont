@@ -4,7 +4,7 @@ header {
     z-index: 999;
     width: 100%;
     left: 0;
-    background: linear-gradient(180deg, #000000ba, #00000091, #00000000);
+    /* background: linear-gradient(180deg, #000000ba, #00000091, #00000000); */
 
 }
 
@@ -288,7 +288,9 @@ header {
 .text-site-primary {
     color: var(--main-color2) !important;
 }
-
+.text-site-secondary {
+    color: var(--main-color3) !important;
+}
 .text-site-info {
     color: var(--main-color) !important;
 }
@@ -597,6 +599,10 @@ h1 {
 }
 
 /* about start */
+.about-heading{
+    font-size: 36px;
+    line-height: 1.2;
+}
 .about-main .about-left {
     position: relative;
 }
@@ -1015,7 +1021,11 @@ h1 {
     gap: 20px;
 
 }
-
+.properties-head2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 .slider-arrows {
     display: flex;
     align-items: center;
@@ -1854,7 +1864,7 @@ label {
     gap: 10px;
     height: 118% !important;
     position: relative;
-    background: url(../images/sea-view.jpg);
+    background: url(../images/sky-view.png);
     background-position: top center;
     background-size: cover;
     /* justify-content: flex-end!important; */
@@ -2771,7 +2781,10 @@ label {
     }
 
     .button-site h6 {
-        font-size: 15px !important;
+        font-size: 14px !important;
     }
+    .about-heading{
+    font-size: 28px;
+}
 
 }
